@@ -1,0 +1,50 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'compute_output'" level="0">
+<item name = "Date">Thu Mar 31 15:01:49 2022
+</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
+<item name = "Project">Conv1d</item>
+<item name = "Solution">solution1_base</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-2</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 8.750 ns, 1.25 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">5559, 5559, 55.590 us, 55.590 us, 5559, 5559, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_compute_fu_1783">compute, 455, 455, 4.550 us, 4.550 us, 455, 455, none</column>
+<column name="grp_load_weight_fu_2015">load_weight, 213, 213, 2.130 us, 2.130 us, 213, 213, none</column>
+<column name="grp_load_input_fu_2414">load_input, 631, 631, 6.310 us, 6.310 us, 631, 631, none</column>
+<column name="grp_load_bias_fu_2437">load_bias, 5101, 5101, 51.010 us, 51.010 us, 5101, 5101, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- LOOP">0, 0, 633, -, -, 0, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

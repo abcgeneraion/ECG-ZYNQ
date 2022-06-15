@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-69] Unable to schedule 'load' operation ('buff_out_0_V_load_2', Conv1d/conv1d.cpp:78) on array 'buff_out_0_V' due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'buff_out_0_V'." projectName="Conv1d" solutionName="solution1_base" date="2022-03-31T15:01:52.863+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv1d/OUT' to 'conv1d/OUT_r' to avoid the conflict with HDL keywords or other object names." projectName="Conv1d" solutionName="solution1_base" date="2022-03-31T15:01:32.292+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'conv1d/IN' to 'conv1d/IN_r' to avoid the conflict with HDL keywords or other object names." projectName="Conv1d" solutionName="solution1_base" date="2022-03-31T15:01:32.282+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

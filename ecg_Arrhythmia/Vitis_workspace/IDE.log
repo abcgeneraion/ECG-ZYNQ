@@ -1,0 +1,1204 @@
+22:55:19 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\vivado_tools_2019.2\Vitis_workspace\temp_xsdb_launch_script.tcl
+22:55:22 INFO  : Registering command handlers for Vitis TCF services
+22:55:23 INFO  : XSCT server has started successfully.
+22:55:23 INFO  : plnx-install-location is set to ''
+22:55:26 INFO  : Successfully done setting XSCT server connection channel  
+22:55:26 INFO  : Successfully done query RDI_DATADIR 
+22:55:26 INFO  : Successfully done setting workspace for the tool. 
+10:24:42 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+10:34:29 ERROR : Failed to openhw "E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+10:35:49 ERROR : Failed to compute checksum of hardware specification file used by project 'ecg_Arrhythmia'
+10:36:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:36:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+10:36:40 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/bitstream/system_wrapper.bit"
+10:40:54 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\vivado_tools_2019.2\Vitis_workspace\temp_xsdb_launch_script.tcl
+10:40:56 INFO  : XSCT server has started successfully.
+10:40:56 INFO  : plnx-install-location is set to ''
+10:40:56 INFO  : Successfully done setting XSCT server connection channel  
+10:40:56 INFO  : Successfully done setting workspace for the tool. 
+10:40:57 INFO  : Registering command handlers for Vitis TCF services
+10:41:00 INFO  : Successfully done query RDI_DATADIR 
+10:45:01 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\vivado_tools_2019.2\Vitis_workspace\temp_xsdb_launch_script.tcl
+10:45:03 INFO  : XSCT server has started successfully.
+10:45:03 INFO  : plnx-install-location is set to ''
+10:45:03 INFO  : Successfully done setting XSCT server connection channel  
+10:45:03 INFO  : Successfully done setting workspace for the tool. 
+10:45:04 INFO  : Successfully done query RDI_DATADIR 
+10:45:04 INFO  : Registering command handlers for Vitis TCF services
+10:50:30 INFO  : Successfully done sdx_reload_mss "E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+10:50:30 INFO  : Successfully done sdx_reload_mss "E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+10:51:19 INFO  : (SwPlatform)  Successfully done add_library 
+10:51:20 INFO  : (SwPlatform) Successfully done removeLibrary 
+10:52:21 INFO  : Successfully done sdx_reload_mss "E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+10:52:21 INFO  : No changes in MSS file content so sources will not be generated.
+11:00:12 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+11:10:51 INFO  : (SwPlatform)  Successfully done add_library 
+11:11:08 INFO  : (SwPlaform) Successfully done setParamInSpec 
+11:11:10 INFO  : (SwPlaform) Successfully done setParamInSpec 
+11:12:04 INFO  : (SwPlaform) Successfully done setParamInSpec 
+11:12:11 INFO  : (SwPlaform) Successfully done setParamInSpec 
+11:12:12 INFO  : (SwPlatform) Successfully done update_mss 
+11:12:12 INFO  : Successfully done sdx_reload_mss "E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+11:12:52 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+11:12:52 INFO  : Updating application flags with new BSP settings...
+11:12:52 INFO  : Successfully updated application flags for project ecg_Arrhythmia.
+11:15:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:15:20 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:15:20 INFO  : 'jtag frequency' command is executed.
+11:15:20 INFO  : Context for 'APU' is selected.
+11:15:20 INFO  : System reset is completed.
+11:15:23 INFO  : 'after 3000' command is executed.
+11:15:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:15:26 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:15:26 INFO  : Context for 'APU' is selected.
+11:15:27 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:15:27 INFO  : 'configparams force-mem-access 1' command is executed.
+11:15:27 INFO  : Context for 'APU' is selected.
+11:15:27 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:15:27 INFO  : 'ps7_init' command is executed.
+11:15:27 INFO  : 'ps7_post_config' command is executed.
+11:15:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:15:29 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:15:29 INFO  : 'configparams force-mem-access 0' command is executed.
+11:15:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:15:29 INFO  : Memory regions updated for context APU
+11:15:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:15:29 INFO  : 'con' command is executed.
+11:15:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:15:29 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:29:24 INFO  : Disconnected from the channel tcfchan#5.
+11:29:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:29:25 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:29:25 INFO  : 'jtag frequency' command is executed.
+11:29:25 INFO  : Context for 'APU' is selected.
+11:29:25 INFO  : System reset is completed.
+11:29:28 INFO  : 'after 3000' command is executed.
+11:29:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:29:32 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:29:32 INFO  : Context for 'APU' is selected.
+11:29:32 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:29:32 INFO  : 'configparams force-mem-access 1' command is executed.
+11:29:32 INFO  : Context for 'APU' is selected.
+11:29:32 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:29:32 INFO  : 'ps7_init' command is executed.
+11:29:32 INFO  : 'ps7_post_config' command is executed.
+11:29:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:29:34 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:29:34 INFO  : 'configparams force-mem-access 0' command is executed.
+11:29:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:29:34 INFO  : Memory regions updated for context APU
+11:29:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:29:34 INFO  : 'con' command is executed.
+11:29:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:29:34 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:32:15 INFO  : Disconnected from the channel tcfchan#6.
+11:32:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:32:16 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:32:16 INFO  : 'jtag frequency' command is executed.
+11:32:16 INFO  : Context for 'APU' is selected.
+11:32:16 INFO  : System reset is completed.
+11:32:19 INFO  : 'after 3000' command is executed.
+11:32:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:32:23 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:32:23 INFO  : Context for 'APU' is selected.
+11:32:23 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:32:23 INFO  : 'configparams force-mem-access 1' command is executed.
+11:32:23 INFO  : Context for 'APU' is selected.
+11:32:23 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:32:23 INFO  : 'ps7_init' command is executed.
+11:32:23 INFO  : 'ps7_post_config' command is executed.
+11:32:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:32:25 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:32:25 INFO  : 'configparams force-mem-access 0' command is executed.
+11:32:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:32:25 INFO  : Memory regions updated for context APU
+11:32:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:32:25 INFO  : 'con' command is executed.
+11:32:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:32:25 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:41:24 INFO  : Disconnected from the channel tcfchan#7.
+11:41:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:41:25 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:41:25 INFO  : 'jtag frequency' command is executed.
+11:41:25 INFO  : Context for 'APU' is selected.
+11:41:25 INFO  : System reset is completed.
+11:41:28 INFO  : 'after 3000' command is executed.
+11:41:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:41:32 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:41:32 INFO  : Context for 'APU' is selected.
+11:41:32 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:41:32 INFO  : 'configparams force-mem-access 1' command is executed.
+11:41:32 INFO  : Context for 'APU' is selected.
+11:41:32 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:41:32 INFO  : 'ps7_init' command is executed.
+11:41:32 INFO  : 'ps7_post_config' command is executed.
+11:41:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:41:34 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:41:34 INFO  : 'configparams force-mem-access 0' command is executed.
+11:41:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:41:34 INFO  : Memory regions updated for context APU
+11:41:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:41:34 INFO  : 'con' command is executed.
+11:41:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:41:34 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:42:40 INFO  : Disconnected from the channel tcfchan#8.
+11:42:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:41 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:42:41 INFO  : 'jtag frequency' command is executed.
+11:42:41 INFO  : Context for 'APU' is selected.
+11:42:41 INFO  : System reset is completed.
+11:42:44 INFO  : 'after 3000' command is executed.
+11:42:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:42:48 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:42:48 INFO  : Context for 'APU' is selected.
+11:42:48 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:42:48 INFO  : 'configparams force-mem-access 1' command is executed.
+11:42:48 INFO  : Context for 'APU' is selected.
+11:42:48 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:42:48 INFO  : 'ps7_init' command is executed.
+11:42:48 INFO  : 'ps7_post_config' command is executed.
+11:42:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:50 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:42:50 INFO  : 'configparams force-mem-access 0' command is executed.
+11:42:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:42:50 INFO  : Memory regions updated for context APU
+11:42:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:42:50 INFO  : 'con' command is executed.
+11:42:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:42:50 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:43:04 INFO  : Disconnected from the channel tcfchan#9.
+11:43:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:43:05 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:43:05 INFO  : 'jtag frequency' command is executed.
+11:43:05 INFO  : Context for 'APU' is selected.
+11:43:05 INFO  : System reset is completed.
+11:43:08 INFO  : 'after 3000' command is executed.
+11:43:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:43:12 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:43:12 INFO  : Context for 'APU' is selected.
+11:43:12 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:43:12 INFO  : 'configparams force-mem-access 1' command is executed.
+11:43:12 INFO  : Context for 'APU' is selected.
+11:43:12 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:43:12 INFO  : 'ps7_init' command is executed.
+11:43:12 INFO  : 'ps7_post_config' command is executed.
+11:43:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:43:14 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:43:14 INFO  : 'configparams force-mem-access 0' command is executed.
+11:43:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:43:14 INFO  : Memory regions updated for context APU
+11:43:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:43:14 INFO  : 'con' command is executed.
+11:43:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:43:14 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:43:37 INFO  : Disconnected from the channel tcfchan#10.
+11:43:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:43:39 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:43:39 INFO  : 'jtag frequency' command is executed.
+11:43:39 INFO  : Context for 'APU' is selected.
+11:43:39 INFO  : System reset is completed.
+11:43:42 INFO  : 'after 3000' command is executed.
+11:43:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:43:45 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:43:45 INFO  : Context for 'APU' is selected.
+11:43:45 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:43:45 INFO  : 'configparams force-mem-access 1' command is executed.
+11:43:45 INFO  : Context for 'APU' is selected.
+11:43:45 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:43:46 INFO  : 'ps7_init' command is executed.
+11:43:46 INFO  : 'ps7_post_config' command is executed.
+11:43:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:43:47 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:43:47 INFO  : 'configparams force-mem-access 0' command is executed.
+11:43:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:43:48 INFO  : Memory regions updated for context APU
+11:43:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:43:48 INFO  : 'con' command is executed.
+11:43:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:43:48 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:44:24 INFO  : Disconnected from the channel tcfchan#11.
+11:44:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:44:26 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:44:26 INFO  : 'jtag frequency' command is executed.
+11:44:26 INFO  : Context for 'APU' is selected.
+11:44:26 INFO  : System reset is completed.
+11:44:29 INFO  : 'after 3000' command is executed.
+11:44:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:44:32 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:44:32 INFO  : Context for 'APU' is selected.
+11:44:32 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:44:32 INFO  : 'configparams force-mem-access 1' command is executed.
+11:44:32 INFO  : Context for 'APU' is selected.
+11:44:32 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:44:33 INFO  : 'ps7_init' command is executed.
+11:44:33 INFO  : 'ps7_post_config' command is executed.
+11:44:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:44:35 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:44:35 INFO  : 'configparams force-mem-access 0' command is executed.
+11:44:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:44:35 INFO  : Memory regions updated for context APU
+11:44:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:44:35 INFO  : 'con' command is executed.
+11:44:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:44:35 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:44:58 INFO  : Disconnected from the channel tcfchan#12.
+11:44:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:44:59 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:44:59 INFO  : 'jtag frequency' command is executed.
+11:44:59 INFO  : Context for 'APU' is selected.
+11:44:59 INFO  : System reset is completed.
+11:45:02 INFO  : 'after 3000' command is executed.
+11:45:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:45:05 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:45:05 INFO  : Context for 'APU' is selected.
+11:45:06 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:45:06 INFO  : 'configparams force-mem-access 1' command is executed.
+11:45:06 INFO  : Context for 'APU' is selected.
+11:45:06 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:45:06 INFO  : 'ps7_init' command is executed.
+11:45:06 INFO  : 'ps7_post_config' command is executed.
+11:45:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:45:08 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:45:08 INFO  : 'configparams force-mem-access 0' command is executed.
+11:45:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:45:08 INFO  : Memory regions updated for context APU
+11:45:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:45:08 INFO  : 'con' command is executed.
+11:45:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:45:08 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:45:24 INFO  : Disconnected from the channel tcfchan#13.
+11:45:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:45:25 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:45:25 INFO  : 'jtag frequency' command is executed.
+11:45:25 INFO  : Context for 'APU' is selected.
+11:45:25 INFO  : System reset is completed.
+11:45:28 INFO  : 'after 3000' command is executed.
+11:45:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:45:31 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:45:31 INFO  : Context for 'APU' is selected.
+11:45:31 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:45:31 INFO  : 'configparams force-mem-access 1' command is executed.
+11:45:31 INFO  : Context for 'APU' is selected.
+11:45:31 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:45:32 INFO  : 'ps7_init' command is executed.
+11:45:32 INFO  : 'ps7_post_config' command is executed.
+11:45:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:45:33 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:45:34 INFO  : 'configparams force-mem-access 0' command is executed.
+11:45:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:45:34 INFO  : Memory regions updated for context APU
+11:45:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:45:34 INFO  : 'con' command is executed.
+11:45:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:45:34 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:45:57 INFO  : Disconnected from the channel tcfchan#14.
+11:45:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:45:58 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:45:58 INFO  : 'jtag frequency' command is executed.
+11:45:58 INFO  : Context for 'APU' is selected.
+11:45:58 INFO  : System reset is completed.
+11:46:01 INFO  : 'after 3000' command is executed.
+11:46:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:46:05 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:46:05 INFO  : Context for 'APU' is selected.
+11:46:05 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:46:05 INFO  : 'configparams force-mem-access 1' command is executed.
+11:46:05 INFO  : Context for 'APU' is selected.
+11:46:05 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:46:05 INFO  : 'ps7_init' command is executed.
+11:46:05 INFO  : 'ps7_post_config' command is executed.
+11:46:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:46:07 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:46:07 INFO  : 'configparams force-mem-access 0' command is executed.
+11:46:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:46:07 INFO  : Memory regions updated for context APU
+11:46:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:46:07 INFO  : 'con' command is executed.
+11:46:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:46:07 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:47:04 INFO  : Disconnected from the channel tcfchan#15.
+11:47:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:47:05 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:47:05 INFO  : 'jtag frequency' command is executed.
+11:47:05 INFO  : Context for 'APU' is selected.
+11:47:05 INFO  : System reset is completed.
+11:47:08 INFO  : 'after 3000' command is executed.
+11:47:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:47:12 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:47:12 INFO  : Context for 'APU' is selected.
+11:47:12 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:47:12 INFO  : 'configparams force-mem-access 1' command is executed.
+11:47:12 INFO  : Context for 'APU' is selected.
+11:47:12 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:47:12 INFO  : 'ps7_init' command is executed.
+11:47:12 INFO  : 'ps7_post_config' command is executed.
+11:47:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:47:14 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:47:14 INFO  : 'configparams force-mem-access 0' command is executed.
+11:47:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:47:14 INFO  : Memory regions updated for context APU
+11:47:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:47:14 INFO  : 'con' command is executed.
+11:47:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:47:14 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:47:44 INFO  : Disconnected from the channel tcfchan#16.
+11:47:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:47:45 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:47:45 INFO  : 'jtag frequency' command is executed.
+11:47:45 INFO  : Context for 'APU' is selected.
+11:47:45 INFO  : System reset is completed.
+11:47:48 INFO  : 'after 3000' command is executed.
+11:47:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:47:52 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:47:52 INFO  : Context for 'APU' is selected.
+11:47:52 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:47:52 INFO  : 'configparams force-mem-access 1' command is executed.
+11:47:52 INFO  : Context for 'APU' is selected.
+11:47:52 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:47:52 INFO  : 'ps7_init' command is executed.
+11:47:52 INFO  : 'ps7_post_config' command is executed.
+11:47:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:47:54 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:47:54 INFO  : 'configparams force-mem-access 0' command is executed.
+11:47:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:47:54 INFO  : Memory regions updated for context APU
+11:47:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:47:54 INFO  : 'con' command is executed.
+11:47:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:47:54 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:48:50 INFO  : Disconnected from the channel tcfchan#17.
+11:48:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:51 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:48:51 INFO  : 'jtag frequency' command is executed.
+11:48:51 INFO  : Context for 'APU' is selected.
+11:48:51 INFO  : System reset is completed.
+11:48:54 INFO  : 'after 3000' command is executed.
+11:48:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:48:58 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:48:58 INFO  : Context for 'APU' is selected.
+11:48:58 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:48:58 INFO  : 'configparams force-mem-access 1' command is executed.
+11:48:58 INFO  : Context for 'APU' is selected.
+11:48:58 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:48:58 INFO  : 'ps7_init' command is executed.
+11:48:58 INFO  : 'ps7_post_config' command is executed.
+11:48:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:49:00 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:49:00 INFO  : 'configparams force-mem-access 0' command is executed.
+11:49:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:49:00 INFO  : Memory regions updated for context APU
+11:49:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:49:00 INFO  : 'con' command is executed.
+11:49:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:49:00 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:51:05 INFO  : Disconnected from the channel tcfchan#18.
+11:51:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:07 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:51:07 INFO  : 'jtag frequency' command is executed.
+11:51:07 INFO  : Context for 'APU' is selected.
+11:51:07 INFO  : System reset is completed.
+11:51:10 INFO  : 'after 3000' command is executed.
+11:51:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:51:13 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:51:13 INFO  : Context for 'APU' is selected.
+11:51:13 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:51:13 INFO  : 'configparams force-mem-access 1' command is executed.
+11:51:13 INFO  : Context for 'APU' is selected.
+11:51:13 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:51:14 INFO  : 'ps7_init' command is executed.
+11:51:14 INFO  : 'ps7_post_config' command is executed.
+11:51:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:51:16 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:51:16 INFO  : 'configparams force-mem-access 0' command is executed.
+11:51:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:51:16 INFO  : Memory regions updated for context APU
+11:51:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:51:16 INFO  : 'con' command is executed.
+11:51:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:51:16 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:52:37 INFO  : Disconnected from the channel tcfchan#19.
+11:52:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:52:38 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:52:38 INFO  : 'jtag frequency' command is executed.
+11:52:39 INFO  : Context for 'APU' is selected.
+11:52:39 INFO  : System reset is completed.
+11:52:42 INFO  : 'after 3000' command is executed.
+11:52:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:52:45 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:52:45 INFO  : Context for 'APU' is selected.
+11:52:45 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:52:45 INFO  : 'configparams force-mem-access 1' command is executed.
+11:52:45 INFO  : Context for 'APU' is selected.
+11:52:45 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:52:45 INFO  : 'ps7_init' command is executed.
+11:52:45 INFO  : 'ps7_post_config' command is executed.
+11:52:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:52:47 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:52:47 INFO  : 'configparams force-mem-access 0' command is executed.
+11:52:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:52:47 INFO  : Memory regions updated for context APU
+11:52:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:52:47 INFO  : 'con' command is executed.
+11:52:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:52:47 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:54:48 INFO  : Disconnected from the channel tcfchan#20.
+11:54:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:49 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:54:49 INFO  : 'jtag frequency' command is executed.
+11:54:49 INFO  : Context for 'APU' is selected.
+11:54:50 INFO  : System reset is completed.
+11:54:53 INFO  : 'after 3000' command is executed.
+11:54:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:54:56 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:54:56 INFO  : Context for 'APU' is selected.
+11:54:56 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:54:56 INFO  : 'configparams force-mem-access 1' command is executed.
+11:54:56 INFO  : Context for 'APU' is selected.
+11:54:56 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:54:56 INFO  : 'ps7_init' command is executed.
+11:54:56 INFO  : 'ps7_post_config' command is executed.
+11:54:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:58 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:54:58 INFO  : 'configparams force-mem-access 0' command is executed.
+11:54:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:54:58 INFO  : Memory regions updated for context APU
+11:54:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:58 INFO  : 'con' command is executed.
+11:54:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:54:58 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:56:37 INFO  : Disconnected from the channel tcfchan#21.
+11:56:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:38 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:56:38 INFO  : 'jtag frequency' command is executed.
+11:56:38 INFO  : Context for 'APU' is selected.
+11:56:38 INFO  : System reset is completed.
+11:56:41 INFO  : 'after 3000' command is executed.
+11:56:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:56:44 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:56:44 INFO  : Context for 'APU' is selected.
+11:56:44 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:56:44 INFO  : 'configparams force-mem-access 1' command is executed.
+11:56:44 INFO  : Context for 'APU' is selected.
+11:56:44 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:56:45 INFO  : 'ps7_init' command is executed.
+11:56:45 INFO  : 'ps7_post_config' command is executed.
+11:56:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:56:47 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:56:47 INFO  : 'configparams force-mem-access 0' command is executed.
+11:56:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:56:47 INFO  : Memory regions updated for context APU
+11:56:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:56:47 INFO  : 'con' command is executed.
+11:56:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:56:47 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+11:57:14 INFO  : Disconnected from the channel tcfchan#22.
+11:57:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:15 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+11:57:15 INFO  : 'jtag frequency' command is executed.
+11:57:15 INFO  : Context for 'APU' is selected.
+11:57:15 INFO  : System reset is completed.
+11:57:18 INFO  : 'after 3000' command is executed.
+11:57:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:57:21 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+11:57:22 INFO  : Context for 'APU' is selected.
+11:57:22 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+11:57:22 INFO  : 'configparams force-mem-access 1' command is executed.
+11:57:22 INFO  : Context for 'APU' is selected.
+11:57:22 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+11:57:22 INFO  : 'ps7_init' command is executed.
+11:57:22 INFO  : 'ps7_post_config' command is executed.
+11:57:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:57:24 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:57:24 INFO  : 'configparams force-mem-access 0' command is executed.
+11:57:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:57:24 INFO  : Memory regions updated for context APU
+11:57:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:57:24 INFO  : 'con' command is executed.
+11:57:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:57:24 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+13:28:51 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+13:29:42 INFO  : Disconnected from the channel tcfchan#23.
+13:29:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:29:44 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+13:29:44 INFO  : 'jtag frequency' command is executed.
+13:29:44 INFO  : Context for 'APU' is selected.
+13:29:44 INFO  : System reset is completed.
+13:29:47 INFO  : 'after 3000' command is executed.
+13:29:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+13:29:50 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+13:29:50 INFO  : Context for 'APU' is selected.
+13:29:50 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+13:29:50 INFO  : 'configparams force-mem-access 1' command is executed.
+13:29:50 INFO  : Context for 'APU' is selected.
+13:29:50 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+13:29:51 INFO  : 'ps7_init' command is executed.
+13:29:51 INFO  : 'ps7_post_config' command is executed.
+13:29:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:29:53 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:29:53 INFO  : 'configparams force-mem-access 0' command is executed.
+13:29:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:29:53 INFO  : Memory regions updated for context APU
+13:29:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:29:53 INFO  : 'con' command is executed.
+13:29:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:29:53 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+15:38:26 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+15:38:44 INFO  : Disconnected from the channel tcfchan#25.
+15:38:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:38:45 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+15:38:45 INFO  : 'jtag frequency' command is executed.
+15:38:45 INFO  : Context for 'APU' is selected.
+15:38:45 INFO  : System reset is completed.
+15:38:48 INFO  : 'after 3000' command is executed.
+15:38:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:38:51 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+15:38:51 INFO  : Context for 'APU' is selected.
+15:38:51 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+15:38:51 INFO  : 'configparams force-mem-access 1' command is executed.
+15:38:51 INFO  : Context for 'APU' is selected.
+15:38:51 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+15:38:52 INFO  : 'ps7_init' command is executed.
+15:38:52 INFO  : 'ps7_post_config' command is executed.
+15:38:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:38:54 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:38:54 INFO  : 'configparams force-mem-access 0' command is executed.
+15:38:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:38:54 INFO  : Memory regions updated for context APU
+15:38:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:38:54 INFO  : 'con' command is executed.
+15:38:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:38:54 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+17:26:56 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+17:27:22 INFO  : Disconnected from the channel tcfchan#27.
+17:27:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:27:23 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+17:27:23 INFO  : 'jtag frequency' command is executed.
+17:27:23 INFO  : Context for 'APU' is selected.
+17:27:23 INFO  : System reset is completed.
+17:27:26 INFO  : 'after 3000' command is executed.
+17:27:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+17:27:30 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+17:27:30 INFO  : Context for 'APU' is selected.
+17:27:30 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+17:27:30 INFO  : 'configparams force-mem-access 1' command is executed.
+17:27:30 INFO  : Context for 'APU' is selected.
+17:27:30 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+17:27:30 INFO  : 'ps7_init' command is executed.
+17:27:30 INFO  : 'ps7_post_config' command is executed.
+17:27:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:27:32 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:27:32 INFO  : 'configparams force-mem-access 0' command is executed.
+17:27:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:27:32 INFO  : Memory regions updated for context APU
+17:27:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:27:32 INFO  : 'con' command is executed.
+17:27:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:27:32 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+18:13:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\vivado_tools_2019.2\Vitis_workspace\temp_xsdb_launch_script.tcl
+22:18:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\vivado_tools_2019.2\Vitis_workspace\temp_xsdb_launch_script.tcl
+22:18:58 INFO  : XSCT server has started successfully.
+22:18:58 INFO  : plnx-install-location is set to ''
+22:18:58 INFO  : Successfully done setting XSCT server connection channel  
+22:18:58 INFO  : Successfully done setting workspace for the tool. 
+22:19:01 INFO  : Registering command handlers for Vitis TCF services
+22:19:09 INFO  : Successfully done query RDI_DATADIR 
+22:20:20 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+22:23:35 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+22:23:50 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+22:25:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:25:30 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+22:25:30 INFO  : 'jtag frequency' command is executed.
+22:25:30 INFO  : Context for 'APU' is selected.
+22:25:30 INFO  : System reset is completed.
+22:25:33 INFO  : 'after 3000' command is executed.
+22:25:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+22:25:37 INFO  : FPGA configured successfully with bitstream "E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+22:25:37 INFO  : Context for 'APU' is selected.
+22:25:37 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+22:25:37 INFO  : 'configparams force-mem-access 1' command is executed.
+22:25:37 INFO  : Context for 'APU' is selected.
+22:25:37 INFO  : Sourcing of 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+22:25:37 INFO  : 'ps7_init' command is executed.
+22:25:37 INFO  : 'ps7_post_config' command is executed.
+22:25:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:25:39 INFO  : The application 'E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:25:39 INFO  : 'configparams force-mem-access 0' command is executed.
+22:25:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow E:/vivado_tools_2019.2/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:25:39 INFO  : Memory regions updated for context APU
+22:25:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:25:39 INFO  : 'con' command is executed.
+22:25:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:25:39 INFO  : Launch script is exported to file 'E:\vivado_tools_2019.2\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+22:41:01 INFO  : Disconnected from the channel tcfchan#4.
+22:44:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Epoch\Desktop\ecg_Arrhythmia\Vitis_workspace\temp_xsdb_launch_script.tcl
+22:44:49 INFO  : XSCT server has started successfully.
+22:44:49 INFO  : plnx-install-location is set to ''
+22:44:49 INFO  : Successfully done setting XSCT server connection channel  
+22:44:49 INFO  : Successfully done setting workspace for the tool. 
+22:44:50 INFO  : Registering command handlers for Vitis TCF services
+22:44:51 INFO  : Successfully done query RDI_DATADIR 
+22:45:00 INFO  : Successfully done sdx_reload_mss "C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+22:45:00 INFO  : Successfully done sdx_reload_mss "C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/system_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+22:45:26 INFO  : (SwPlaform) Successfully done setParamInSpec 
+22:45:26 INFO  : (SwPlatform) Successfully done update_mss 
+22:45:26 INFO  : Successfully done sdx_reload_mss "C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/system_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+22:46:41 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+22:48:43 INFO  : Checking for BSP changes to sync application flags for project 'ecg_Arrhythmia'...
+22:49:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:49:16 INFO  : Jtag cable 'Digilent JTAG-HS1 210512180081' is selected.
+22:49:16 INFO  : 'jtag frequency' command is executed.
+22:49:16 INFO  : Context for 'APU' is selected.
+22:49:16 INFO  : System reset is completed.
+22:49:19 INFO  : 'after 3000' command is executed.
+22:49:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+22:49:23 INFO  : FPGA configured successfully with bitstream "C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit"
+22:49:23 INFO  : Context for 'APU' is selected.
+22:49:23 INFO  : Hardware design information is loaded from 'E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa'.
+22:49:23 INFO  : 'configparams force-mem-access 1' command is executed.
+22:49:23 INFO  : Context for 'APU' is selected.
+22:49:23 INFO  : Sourcing of 'C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl' is done.
+22:49:23 INFO  : 'ps7_init' command is executed.
+22:49:23 INFO  : 'ps7_post_config' command is executed.
+22:49:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:49:25 INFO  : The application 'C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:49:25 INFO  : 'configparams force-mem-access 0' command is executed.
+22:49:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/ecg_Arrhythmia/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/ecg_Arrhythmia/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Epoch/Desktop/ecg_Arrhythmia/Vitis_workspace/ecg_Arrhythmia/Debug/ecg_Arrhythmia.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+22:49:25 INFO  : Memory regions updated for context APU
+22:49:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:49:25 INFO  : 'con' command is executed.
+22:49:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+22:49:25 INFO  : Launch script is exported to file 'C:\Users\Epoch\Desktop\ecg_Arrhythmia\Vitis_workspace\.sdk\launch_scripts\single_application_debug\debugger_ecg_arrhythmia-default.tcl'
+19:57:28 ERROR : Failed to openhw "E:/vivado_tools_2019.2/Vitis_workspace/system_wrapper/export/system_wrapper/hw/system_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+20:01:44 INFO  : Disconnected from the channel tcfchan#3.

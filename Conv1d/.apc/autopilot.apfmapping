@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="conv1d.cpp" path="C:\Users\Epoch\Desktop\Conv1d\conv1d.cpp"/>
+    <originFiles name="conv1d.h" path="C:\Users\Epoch\Desktop\Conv1d\conv1d.h"/>
+  </source>
+  <testbench>
+    <originFiles name="test_tb.cpp" path="C:\Users\Epoch\Desktop\Conv1d\test_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

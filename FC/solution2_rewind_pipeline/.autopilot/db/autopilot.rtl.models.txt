@@ -1,0 +1,7 @@
+fc_mul_mul_16s_16bkb
+fc_CTRL_s_axi
+fc_IN_r_m_axi
+fc_W_m_axi
+fc_B_m_axi
+fc_OUT_r_m_axi
+fc

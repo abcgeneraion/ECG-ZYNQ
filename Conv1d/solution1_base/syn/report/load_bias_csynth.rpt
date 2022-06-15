@@ -1,0 +1,289 @@
+
+
+================================================================
+== Vivado HLS Report for 'load_bias'
+================================================================
+* Date:           Thu Mar 31 15:01:58 2022
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        Conv1d
+* Solution:       solution1_base
+* Product family: zynq
+* Target device:  xc7z020-clg400-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 7.219 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     5101|     5101| 51.010 us | 51.010 us |  5101|  5101|   none  |
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |             |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- Loop 1     |     5100|     5100|        34|          -|          -|   150|    no    |
+        | + Loop 1.1  |       32|       32|         2|          -|          -|    16|    no    |
+        +-------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      -|       -|      -|    -|
+|Expression       |        -|      -|       0|     22|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        -|      -|       0|     65|    -|
+|Memory           |        -|      -|       -|      -|    -|
+|Multiplexer      |        -|      -|       -|     10|    -|
+|Register         |        -|      -|     258|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |        0|      0|     258|     97|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      280|    220|  106400|  53200|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |        0|      0|   ~0   |   ~0  |    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+----------------------+---------+-------+---+----+-----+
+    |         Instance        |        Module        | BRAM_18K| DSP48E| FF| LUT| URAM|
+    +-------------------------+----------------------+---------+-------+---+----+-----+
+    |conv1d_mux_164_16bkb_U1  |conv1d_mux_164_16bkb  |        0|      0|  0|  65|    0|
+    +-------------------------+----------------------+---------+-------+---+----+-----+
+    |Total                    |                      |        0|      0|  0|  65|    0|
+    +-------------------------+----------------------+---------+-------+---+----+-----+
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------+----------+-------+---+----+------------+------------+
+    |    Variable Name    | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------+----------+-------+---+----+------------+------------+
+    |i_fu_558_p2          |     +    |      0|  0|   8|           8|           1|
+    |m_fu_590_p2          |     +    |      0|  0|   7|           5|           1|
+    |icmp_ln52_fu_552_p2  |   icmp   |      0|  0|   4|           8|           8|
+    |icmp_ln53_fu_584_p2  |   icmp   |      0|  0|   3|           5|           6|
+    +---------------------+----------+-------+---+----+------------+------------+
+    |Total                |          |      0|  0|  22|          26|          16|
+    +---------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------+----+-----------+-----+-----------+
+    |     Name    | LUT| Input Size| Bits| Total Bits|
+    +-------------+----+-----------+-----+-----------+
+    |ap_NS_fsm    |   4|          5|    1|          5|
+    |i_0_reg_510  |   3|          2|    8|         16|
+    |m_0_reg_521  |   3|          2|    5|         10|
+    +-------------+----+-----------+-----+-----------+
+    |Total        |  10|          9|   14|         31|
+    +-------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------+---+----+-----+-----------+
+    |            Name            | FF| LUT| Bits| Const Bits|
+    +----------------------------+---+----+-----+-----------+
+    |ap_CS_fsm                   |  4|   0|    4|          0|
+    |bias_buff_V16_addr_reg_658  |  6|   0|    6|          0|
+    |bias_buff_V17_addr_reg_663  |  6|   0|    6|          0|
+    |bias_buff_V18_addr_reg_668  |  6|   0|    6|          0|
+    |bias_buff_V19_addr_reg_673  |  6|   0|    6|          0|
+    |bias_buff_V20_addr_reg_678  |  6|   0|    6|          0|
+    |bias_buff_V21_addr_reg_683  |  6|   0|    6|          0|
+    |bias_buff_V22_addr_reg_688  |  6|   0|    6|          0|
+    |bias_buff_V23_addr_reg_693  |  6|   0|    6|          0|
+    |bias_buff_V24_addr_reg_698  |  6|   0|    6|          0|
+    |bias_buff_V25_addr_reg_703  |  6|   0|    6|          0|
+    |bias_buff_V26_addr_reg_708  |  6|   0|    6|          0|
+    |bias_buff_V27_addr_reg_713  |  6|   0|    6|          0|
+    |bias_buff_V28_addr_reg_718  |  6|   0|    6|          0|
+    |bias_buff_V29_addr_reg_723  |  6|   0|    6|          0|
+    |bias_buff_V30_addr_reg_728  |  6|   0|    6|          0|
+    |bias_buff_V_addr_reg_653    |  6|   0|    6|          0|
+    |buff_out_0_V_addr_reg_741   |  8|   0|    8|          0|
+    |buff_out_10_V_addr_reg_791  |  8|   0|    8|          0|
+    |buff_out_11_V_addr_reg_796  |  8|   0|    8|          0|
+    |buff_out_12_V_addr_reg_801  |  8|   0|    8|          0|
+    |buff_out_13_V_addr_reg_806  |  8|   0|    8|          0|
+    |buff_out_14_V_addr_reg_811  |  8|   0|    8|          0|
+    |buff_out_15_V_addr_reg_816  |  8|   0|    8|          0|
+    |buff_out_1_V_addr_reg_746   |  8|   0|    8|          0|
+    |buff_out_2_V_addr_reg_751   |  8|   0|    8|          0|
+    |buff_out_3_V_addr_reg_756   |  8|   0|    8|          0|
+    |buff_out_4_V_addr_reg_761   |  8|   0|    8|          0|
+    |buff_out_5_V_addr_reg_766   |  8|   0|    8|          0|
+    |buff_out_6_V_addr_reg_771   |  8|   0|    8|          0|
+    |buff_out_7_V_addr_reg_776   |  8|   0|    8|          0|
+    |buff_out_8_V_addr_reg_781   |  8|   0|    8|          0|
+    |buff_out_9_V_addr_reg_786   |  8|   0|    8|          0|
+    |i_0_reg_510                 |  8|   0|    8|          0|
+    |i_reg_736                   |  8|   0|    8|          0|
+    |m_0_reg_521                 |  5|   0|    5|          0|
+    |m_reg_824                   |  5|   0|    5|          0|
+    |trunc_ln203_reg_829         |  4|   0|    4|          0|
+    +----------------------------+---+----+-----+-----------+
+    |Total                       |258|   0|  258|          0|
+    +----------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------+-----+-----+------------+--------------------+--------------+
+|        RTL Ports       | Dir | Bits|  Protocol  |    Source Object   |    C Type    |
++------------------------+-----+-----+------------+--------------------+--------------+
+|ap_clk                  |  in |    1| ap_ctrl_hs |      load_bias     | return value |
+|ap_rst                  |  in |    1| ap_ctrl_hs |      load_bias     | return value |
+|ap_start                |  in |    1| ap_ctrl_hs |      load_bias     | return value |
+|ap_done                 | out |    1| ap_ctrl_hs |      load_bias     | return value |
+|ap_idle                 | out |    1| ap_ctrl_hs |      load_bias     | return value |
+|ap_ready                | out |    1| ap_ctrl_hs |      load_bias     | return value |
+|buff_out_0_V_address0   | out |    8|  ap_memory |    buff_out_0_V    |     array    |
+|buff_out_0_V_ce0        | out |    1|  ap_memory |    buff_out_0_V    |     array    |
+|buff_out_0_V_we0        | out |    1|  ap_memory |    buff_out_0_V    |     array    |
+|buff_out_0_V_d0         | out |   16|  ap_memory |    buff_out_0_V    |     array    |
+|buff_out_1_V_address0   | out |    8|  ap_memory |    buff_out_1_V    |     array    |
+|buff_out_1_V_ce0        | out |    1|  ap_memory |    buff_out_1_V    |     array    |
+|buff_out_1_V_we0        | out |    1|  ap_memory |    buff_out_1_V    |     array    |
+|buff_out_1_V_d0         | out |   16|  ap_memory |    buff_out_1_V    |     array    |
+|buff_out_2_V_address0   | out |    8|  ap_memory |    buff_out_2_V    |     array    |
+|buff_out_2_V_ce0        | out |    1|  ap_memory |    buff_out_2_V    |     array    |
+|buff_out_2_V_we0        | out |    1|  ap_memory |    buff_out_2_V    |     array    |
+|buff_out_2_V_d0         | out |   16|  ap_memory |    buff_out_2_V    |     array    |
+|buff_out_3_V_address0   | out |    8|  ap_memory |    buff_out_3_V    |     array    |
+|buff_out_3_V_ce0        | out |    1|  ap_memory |    buff_out_3_V    |     array    |
+|buff_out_3_V_we0        | out |    1|  ap_memory |    buff_out_3_V    |     array    |
+|buff_out_3_V_d0         | out |   16|  ap_memory |    buff_out_3_V    |     array    |
+|buff_out_4_V_address0   | out |    8|  ap_memory |    buff_out_4_V    |     array    |
+|buff_out_4_V_ce0        | out |    1|  ap_memory |    buff_out_4_V    |     array    |
+|buff_out_4_V_we0        | out |    1|  ap_memory |    buff_out_4_V    |     array    |
+|buff_out_4_V_d0         | out |   16|  ap_memory |    buff_out_4_V    |     array    |
+|buff_out_5_V_address0   | out |    8|  ap_memory |    buff_out_5_V    |     array    |
+|buff_out_5_V_ce0        | out |    1|  ap_memory |    buff_out_5_V    |     array    |
+|buff_out_5_V_we0        | out |    1|  ap_memory |    buff_out_5_V    |     array    |
+|buff_out_5_V_d0         | out |   16|  ap_memory |    buff_out_5_V    |     array    |
+|buff_out_6_V_address0   | out |    8|  ap_memory |    buff_out_6_V    |     array    |
+|buff_out_6_V_ce0        | out |    1|  ap_memory |    buff_out_6_V    |     array    |
+|buff_out_6_V_we0        | out |    1|  ap_memory |    buff_out_6_V    |     array    |
+|buff_out_6_V_d0         | out |   16|  ap_memory |    buff_out_6_V    |     array    |
+|buff_out_7_V_address0   | out |    8|  ap_memory |    buff_out_7_V    |     array    |
+|buff_out_7_V_ce0        | out |    1|  ap_memory |    buff_out_7_V    |     array    |
+|buff_out_7_V_we0        | out |    1|  ap_memory |    buff_out_7_V    |     array    |
+|buff_out_7_V_d0         | out |   16|  ap_memory |    buff_out_7_V    |     array    |
+|buff_out_8_V_address0   | out |    8|  ap_memory |    buff_out_8_V    |     array    |
+|buff_out_8_V_ce0        | out |    1|  ap_memory |    buff_out_8_V    |     array    |
+|buff_out_8_V_we0        | out |    1|  ap_memory |    buff_out_8_V    |     array    |
+|buff_out_8_V_d0         | out |   16|  ap_memory |    buff_out_8_V    |     array    |
+|buff_out_9_V_address0   | out |    8|  ap_memory |    buff_out_9_V    |     array    |
+|buff_out_9_V_ce0        | out |    1|  ap_memory |    buff_out_9_V    |     array    |
+|buff_out_9_V_we0        | out |    1|  ap_memory |    buff_out_9_V    |     array    |
+|buff_out_9_V_d0         | out |   16|  ap_memory |    buff_out_9_V    |     array    |
+|buff_out_10_V_address0  | out |    8|  ap_memory |    buff_out_10_V   |     array    |
+|buff_out_10_V_ce0       | out |    1|  ap_memory |    buff_out_10_V   |     array    |
+|buff_out_10_V_we0       | out |    1|  ap_memory |    buff_out_10_V   |     array    |
+|buff_out_10_V_d0        | out |   16|  ap_memory |    buff_out_10_V   |     array    |
+|buff_out_11_V_address0  | out |    8|  ap_memory |    buff_out_11_V   |     array    |
+|buff_out_11_V_ce0       | out |    1|  ap_memory |    buff_out_11_V   |     array    |
+|buff_out_11_V_we0       | out |    1|  ap_memory |    buff_out_11_V   |     array    |
+|buff_out_11_V_d0        | out |   16|  ap_memory |    buff_out_11_V   |     array    |
+|buff_out_12_V_address0  | out |    8|  ap_memory |    buff_out_12_V   |     array    |
+|buff_out_12_V_ce0       | out |    1|  ap_memory |    buff_out_12_V   |     array    |
+|buff_out_12_V_we0       | out |    1|  ap_memory |    buff_out_12_V   |     array    |
+|buff_out_12_V_d0        | out |   16|  ap_memory |    buff_out_12_V   |     array    |
+|buff_out_13_V_address0  | out |    8|  ap_memory |    buff_out_13_V   |     array    |
+|buff_out_13_V_ce0       | out |    1|  ap_memory |    buff_out_13_V   |     array    |
+|buff_out_13_V_we0       | out |    1|  ap_memory |    buff_out_13_V   |     array    |
+|buff_out_13_V_d0        | out |   16|  ap_memory |    buff_out_13_V   |     array    |
+|buff_out_14_V_address0  | out |    8|  ap_memory |    buff_out_14_V   |     array    |
+|buff_out_14_V_ce0       | out |    1|  ap_memory |    buff_out_14_V   |     array    |
+|buff_out_14_V_we0       | out |    1|  ap_memory |    buff_out_14_V   |     array    |
+|buff_out_14_V_d0        | out |   16|  ap_memory |    buff_out_14_V   |     array    |
+|buff_out_15_V_address0  | out |    8|  ap_memory |    buff_out_15_V   |     array    |
+|buff_out_15_V_ce0       | out |    1|  ap_memory |    buff_out_15_V   |     array    |
+|buff_out_15_V_we0       | out |    1|  ap_memory |    buff_out_15_V   |     array    |
+|buff_out_15_V_d0        | out |   16|  ap_memory |    buff_out_15_V   |     array    |
+|bias_buff_V_address0    | out |    6|  ap_memory |     bias_buff_V    |     array    |
+|bias_buff_V_ce0         | out |    1|  ap_memory |     bias_buff_V    |     array    |
+|bias_buff_V_q0          |  in |   16|  ap_memory |     bias_buff_V    |     array    |
+|bias_buff_V16_address0  | out |    6|  ap_memory |    bias_buff_V16   |     array    |
+|bias_buff_V16_ce0       | out |    1|  ap_memory |    bias_buff_V16   |     array    |
+|bias_buff_V16_q0        |  in |   16|  ap_memory |    bias_buff_V16   |     array    |
+|bias_buff_V17_address0  | out |    6|  ap_memory |    bias_buff_V17   |     array    |
+|bias_buff_V17_ce0       | out |    1|  ap_memory |    bias_buff_V17   |     array    |
+|bias_buff_V17_q0        |  in |   16|  ap_memory |    bias_buff_V17   |     array    |
+|bias_buff_V18_address0  | out |    6|  ap_memory |    bias_buff_V18   |     array    |
+|bias_buff_V18_ce0       | out |    1|  ap_memory |    bias_buff_V18   |     array    |
+|bias_buff_V18_q0        |  in |   16|  ap_memory |    bias_buff_V18   |     array    |
+|bias_buff_V19_address0  | out |    6|  ap_memory |    bias_buff_V19   |     array    |
+|bias_buff_V19_ce0       | out |    1|  ap_memory |    bias_buff_V19   |     array    |
+|bias_buff_V19_q0        |  in |   16|  ap_memory |    bias_buff_V19   |     array    |
+|bias_buff_V20_address0  | out |    6|  ap_memory |    bias_buff_V20   |     array    |
+|bias_buff_V20_ce0       | out |    1|  ap_memory |    bias_buff_V20   |     array    |
+|bias_buff_V20_q0        |  in |   16|  ap_memory |    bias_buff_V20   |     array    |
+|bias_buff_V21_address0  | out |    6|  ap_memory |    bias_buff_V21   |     array    |
+|bias_buff_V21_ce0       | out |    1|  ap_memory |    bias_buff_V21   |     array    |
+|bias_buff_V21_q0        |  in |   16|  ap_memory |    bias_buff_V21   |     array    |
+|bias_buff_V22_address0  | out |    6|  ap_memory |    bias_buff_V22   |     array    |
+|bias_buff_V22_ce0       | out |    1|  ap_memory |    bias_buff_V22   |     array    |
+|bias_buff_V22_q0        |  in |   16|  ap_memory |    bias_buff_V22   |     array    |
+|bias_buff_V23_address0  | out |    6|  ap_memory |    bias_buff_V23   |     array    |
+|bias_buff_V23_ce0       | out |    1|  ap_memory |    bias_buff_V23   |     array    |
+|bias_buff_V23_q0        |  in |   16|  ap_memory |    bias_buff_V23   |     array    |
+|bias_buff_V24_address0  | out |    6|  ap_memory |    bias_buff_V24   |     array    |
+|bias_buff_V24_ce0       | out |    1|  ap_memory |    bias_buff_V24   |     array    |
+|bias_buff_V24_q0        |  in |   16|  ap_memory |    bias_buff_V24   |     array    |
+|bias_buff_V25_address0  | out |    6|  ap_memory |    bias_buff_V25   |     array    |
+|bias_buff_V25_ce0       | out |    1|  ap_memory |    bias_buff_V25   |     array    |
+|bias_buff_V25_q0        |  in |   16|  ap_memory |    bias_buff_V25   |     array    |
+|bias_buff_V26_address0  | out |    6|  ap_memory |    bias_buff_V26   |     array    |
+|bias_buff_V26_ce0       | out |    1|  ap_memory |    bias_buff_V26   |     array    |
+|bias_buff_V26_q0        |  in |   16|  ap_memory |    bias_buff_V26   |     array    |
+|bias_buff_V27_address0  | out |    6|  ap_memory |    bias_buff_V27   |     array    |
+|bias_buff_V27_ce0       | out |    1|  ap_memory |    bias_buff_V27   |     array    |
+|bias_buff_V27_q0        |  in |   16|  ap_memory |    bias_buff_V27   |     array    |
+|bias_buff_V28_address0  | out |    6|  ap_memory |    bias_buff_V28   |     array    |
+|bias_buff_V28_ce0       | out |    1|  ap_memory |    bias_buff_V28   |     array    |
+|bias_buff_V28_q0        |  in |   16|  ap_memory |    bias_buff_V28   |     array    |
+|bias_buff_V29_address0  | out |    6|  ap_memory |    bias_buff_V29   |     array    |
+|bias_buff_V29_ce0       | out |    1|  ap_memory |    bias_buff_V29   |     array    |
+|bias_buff_V29_q0        |  in |   16|  ap_memory |    bias_buff_V29   |     array    |
+|bias_buff_V30_address0  | out |    6|  ap_memory |    bias_buff_V30   |     array    |
+|bias_buff_V30_ce0       | out |    1|  ap_memory |    bias_buff_V30   |     array    |
+|bias_buff_V30_q0        |  in |   16|  ap_memory |    bias_buff_V30   |     array    |
+|bias_buff_V_offset      |  in |   29|   ap_none  | bias_buff_V_offset |    scalar    |
++------------------------+-----+-----+------------+--------------------+--------------+
+

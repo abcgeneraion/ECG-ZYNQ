@@ -1,0 +1,11 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../fc.cpp in debug mode
+   Generating csim.exe
+-25.459,-25.459
+-17.5791,-17.5791
+-0.900391,-0.900391
+30.0732,30.0732
+-27.1035,-27.1035
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

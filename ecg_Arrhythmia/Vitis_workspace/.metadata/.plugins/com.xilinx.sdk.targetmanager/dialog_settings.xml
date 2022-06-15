@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="ecg_Arrhythmia-target"/>
+	<item value="false" key="ecg_Arrhythmia-partial_bit"/>
+	<item value="false" key="ecg_Arrhythmia-skip_rev_check"/>
+	<item value="Auto Detect" key="ecg_Arrhythmia-device"/>
+	<item value="ecg_Arrhythmia" key="programfpga.sdxproject"/>
+	<item value="" key="ecg_Arrhythmia-bmmFile"/>
+	<item value="E:\vivado_tools_2019.2\Vitis_workspace\system_wrapper\bitstream\system_wrapper.bit" key="ecg_Arrhythmia-bitFile"/>
+</section>

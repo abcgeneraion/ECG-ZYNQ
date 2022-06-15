@@ -1,0 +1,173 @@
+-25.459,-25.459
+-17.5791,-17.5791
+-0.900391,-0.900391
+30.0732,30.0732
+-27.1035,-27.1035
+
+C:\Users\Epoch\Desktop\FC\solution2\sim\verilog>set PATH= 
+
+C:\Users\Epoch\Desktop\FC\solution2\sim\verilog>call E:/vivado_tools_2019.2/Vivado/2019.2/bin/xelab xil_defaultlib.apatb_fc_top glbl -prj fc.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "E:/vivado_tools_2019.2/Vivado/2019.2/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s fc  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "E:/vivado_tools_2019.2/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado_tools_2019.2/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_fc_top glbl -prj fc.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile E:/vivado_tools_2019.2/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s fc 
+Multi-threading is on. Using 4 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/AESL_axi_master_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_B
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/AESL_axi_master_IN_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_IN_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/AESL_axi_master_OUT_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_OUT_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/AESL_axi_master_W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_master_W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/AESL_axi_slave_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CTRL
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/fc.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_fc_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/fc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/fc_B_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_B_m_axi
+INFO: [VRFC 10-311] analyzing module fc_B_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module fc_B_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module fc_B_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module fc_B_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module fc_B_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module fc_B_m_axi_read
+INFO: [VRFC 10-311] analyzing module fc_B_m_axi_write
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/fc_CTRL_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_CTRL_s_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/fc_IN_r_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_IN_r_m_axi
+INFO: [VRFC 10-311] analyzing module fc_IN_r_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module fc_IN_r_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module fc_IN_r_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module fc_IN_r_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module fc_IN_r_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module fc_IN_r_m_axi_read
+INFO: [VRFC 10-311] analyzing module fc_IN_r_m_axi_write
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/fc_mul_mul_16s_16bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_mul_mul_16s_16bkb_DSP48_0
+INFO: [VRFC 10-311] analyzing module fc_mul_mul_16s_16bkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/fc_OUT_r_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_OUT_r_m_axi
+INFO: [VRFC 10-311] analyzing module fc_OUT_r_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module fc_OUT_r_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module fc_OUT_r_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module fc_OUT_r_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module fc_OUT_r_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module fc_OUT_r_m_axi_read
+INFO: [VRFC 10-311] analyzing module fc_OUT_r_m_axi_write
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/fc_W_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fc_W_m_axi
+INFO: [VRFC 10-311] analyzing module fc_W_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module fc_W_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module fc_W_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module fc_W_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module fc_W_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module fc_W_m_axi_read
+INFO: [VRFC 10-311] analyzing module fc_W_m_axi_write
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fc_CTRL_s_axi
+Compiling module xil_defaultlib.fc_IN_r_m_axi_throttl_default
+Compiling module xil_defaultlib.fc_IN_r_m_axi_reg_slice(N=64)
+Compiling module xil_defaultlib.fc_IN_r_m_axi_fifo(DATA_BITS=64,...
+Compiling module xil_defaultlib.fc_IN_r_m_axi_buffer(DATA_WIDTH=...
+Compiling module xil_defaultlib.fc_IN_r_m_axi_fifo(DATA_BITS=10,...
+Compiling module xil_defaultlib.fc_IN_r_m_axi_decoder(DIN_WIDTH=...
+Compiling module xil_defaultlib.fc_IN_r_m_axi_fifo(DATA_BITS=2,D...
+Compiling module xil_defaultlib.fc_IN_r_m_axi_fifo(DATA_BITS=2,D...
+Compiling module xil_defaultlib.fc_IN_r_m_axi_write(NUM_WRITE_OU...
+Compiling module xil_defaultlib.fc_IN_r_m_axi_buffer(DATA_WIDTH=...
+Compiling module xil_defaultlib.fc_IN_r_m_axi_reg_slice(N=18)
+Compiling module xil_defaultlib.fc_IN_r_m_axi_read(NUM_READ_OUTS...
+Compiling module xil_defaultlib.fc_IN_r_m_axi(NUM_READ_OUTSTANDI...
+Compiling module xil_defaultlib.fc_W_m_axi_throttl_default
+Compiling module xil_defaultlib.fc_W_m_axi_reg_slice(N=64)
+Compiling module xil_defaultlib.fc_W_m_axi_fifo(DATA_BITS=64,DEP...
+Compiling module xil_defaultlib.fc_W_m_axi_buffer(DATA_WIDTH=18,...
+Compiling module xil_defaultlib.fc_W_m_axi_fifo(DATA_BITS=10,DEP...
+Compiling module xil_defaultlib.fc_W_m_axi_decoder(DIN_WIDTH=1)
+Compiling module xil_defaultlib.fc_W_m_axi_fifo(DATA_BITS=2,DEPT...
+Compiling module xil_defaultlib.fc_W_m_axi_fifo(DATA_BITS=2,DEPT...
+Compiling module xil_defaultlib.fc_W_m_axi_write(NUM_WRITE_OUTST...
+Compiling module xil_defaultlib.fc_W_m_axi_buffer(DATA_WIDTH=35,...
+Compiling module xil_defaultlib.fc_W_m_axi_reg_slice(N=18)
+Compiling module xil_defaultlib.fc_W_m_axi_read(NUM_READ_OUTSTAN...
+Compiling module xil_defaultlib.fc_W_m_axi(NUM_READ_OUTSTANDING=...
+Compiling module xil_defaultlib.fc_B_m_axi_throttl_default
+Compiling module xil_defaultlib.fc_B_m_axi_reg_slice(N=64)
+Compiling module xil_defaultlib.fc_B_m_axi_fifo(DATA_BITS=64,DEP...
+Compiling module xil_defaultlib.fc_B_m_axi_buffer(DATA_WIDTH=18,...
+Compiling module xil_defaultlib.fc_B_m_axi_fifo(DATA_BITS=10,DEP...
+Compiling module xil_defaultlib.fc_B_m_axi_decoder(DIN_WIDTH=1)
+Compiling module xil_defaultlib.fc_B_m_axi_fifo(DATA_BITS=2,DEPT...
+Compiling module xil_defaultlib.fc_B_m_axi_fifo(DATA_BITS=2,DEPT...
+Compiling module xil_defaultlib.fc_B_m_axi_write(NUM_WRITE_OUTST...
+Compiling module xil_defaultlib.fc_B_m_axi_buffer(DATA_WIDTH=35,...
+Compiling module xil_defaultlib.fc_B_m_axi_reg_slice(N=18)
+Compiling module xil_defaultlib.fc_B_m_axi_read(NUM_READ_OUTSTAN...
+Compiling module xil_defaultlib.fc_B_m_axi(NUM_READ_OUTSTANDING=...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_throttl_default
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_reg_slice(N=64)
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_fifo(DATA_BITS=64...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_buffer(DATA_WIDTH...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_fifo(DATA_BITS=10...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_decoder(DIN_WIDTH...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_fifo(DATA_BITS=2,...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_fifo(DATA_BITS=2,...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_write(NUM_WRITE_O...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_buffer(DATA_WIDTH...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_reg_slice(N=18)
+Compiling module xil_defaultlib.fc_OUT_r_m_axi_read(NUM_READ_OUT...
+Compiling module xil_defaultlib.fc_OUT_r_m_axi(NUM_READ_OUTSTAND...
+Compiling module xil_defaultlib.fc_mul_mul_16s_16bkb_DSP48_0
+Compiling module xil_defaultlib.fc_mul_mul_16s_16bkb(ID=1,NUM_ST...
+Compiling module xil_defaultlib.fc
+Compiling module xil_defaultlib.AESL_axi_master_IN_r
+Compiling module xil_defaultlib.AESL_axi_master_W
+Compiling module xil_defaultlib.AESL_axi_master_B
+Compiling module xil_defaultlib.AESL_axi_master_OUT_r
+Compiling module xil_defaultlib.AESL_axi_slave_CTRL
+Compiling module xil_defaultlib.apatb_fc_top
+Compiling module work.glbl
+Built simulation snapshot fc
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/xsim.dir/fc/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/xsim.dir/fc/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Mar 27 13:25:58 2022. For additional details about this file, please refer to the WebTalk help file at E:/vivado_tools_2019.2/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 27 13:25:58 2022...
+
+****** xsim v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/fc/xsim_script.tcl
+# xsim {fc} -autoloadwcfg -tclbatch {fc.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source fc.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/AESL_axi_master_W.v: Read request address        112 exceed AXI master W array depth:        100
+$finish called at time : 1765 ns : File "C:/Users/Epoch/Desktop/FC/solution2/sim/verilog/AESL_axi_master_W.v" Line 686
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Mar 27 13:26:10 2022...

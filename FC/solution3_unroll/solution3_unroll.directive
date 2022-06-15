@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+  <sourceFile>
+    <directive functionName="fc" label="" functionLabel="">
+      <pragma name="PIPELINE"/>
+    </directive>
+    <directive functionName="fc" label="in_loop" functionLabel="">
+      <pragma name="UNROLL"/>
+    </directive>
+  </sourceFile>
+  <sourceFile name="FC/fc.cpp">
+    <directive functionName="fc" label="Loop2" functionLabel=" ">
+      <pragma name="PIPELINE"/>
+    </directive>
+    <directive functionName="fc" label="Loop1" functionLabel=" ">
+      <pragma name="UNROLL"/>
+    </directive>
+  </sourceFile>
+</AutoPilot:ProjectResources>

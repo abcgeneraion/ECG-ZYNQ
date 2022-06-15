@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog>
+        <logs message="ERROR: [HLS 200-70] Pre-synthesis failed.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/Epoch/Desktop/FC/solution3_outerpipe/csynth.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/Epoch/Desktop/FC/solution3_outerpipe/csynth.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="FC" solutionName="solution3_outerpipe" date="2022-03-29T15:06:15.590+0800"/>
+        <logs message="ERROR: [XFORM 203-504] Stop unrolling loop 'Loop-1' (FC/fc.cpp:10) in function 'fc' because it may cause large runtime and excessive memory usage due to increase in code size. Please avoid unrolling the loop or form sub-functions for code in the loop body." projectName="FC" solutionName="solution3_outerpipe" date="2022-03-29T15:06:15.384+0800"/>
+      </synLog>
+      <simLog>
+        <logs message="ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***" projectName="FC" solutionName="solution2" date="2022-03-27T13:26:12.734+0800"/>
+        <logs message="ERROR: [COSIM 212-344] Rtl simulation failed." projectName="FC" solutionName="solution2" date="2022-03-27T13:26:12.723+0800"/>
+        <logs message="ERROR: [COSIM 212-303] Aborting co-simulation: RTL simulation failed.  " projectName="FC" solutionName="solution2" date="2022-03-27T13:26:12.715+0800"/>
+      </simLog>
+      <mgLog/>
+      <packageLog>
+        <logs message="ERROR: [IMPL 213-28] Failed to generate IP.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/Epoch/Desktop/FC/solution2/export.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/Epoch/Desktop/FC/solution2/export.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="FC" solutionName="solution2" date="2022-03-27T13:47:39.005+0800"/>
+        <logs message="ERROR: [IMPL 213-28] Failed to generate IP.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/Epoch/Desktop/FC/solution2/export.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/Epoch/Desktop/FC/solution2/export.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="FC" solutionName="solution2" date="2022-03-27T13:41:31.995+0800"/>
+        <logs message="ERROR: [IMPL 213-28] Failed to generate IP.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/Epoch/Desktop/FC/solution2/export.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/Epoch/Desktop/FC/solution2/export.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="FC" solutionName="solution2" date="2022-03-27T13:38:43.788+0800"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'fc/OUT' to 'fc/OUT_r' to avoid the conflict with HDL keywords or other object names." projectName="FC" solutionName="solution2_rewind_pipeline" date="2022-03-29T15:39:21.218+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'fc/IN' to 'fc/IN_r' to avoid the conflict with HDL keywords or other object names." projectName="FC" solutionName="solution2_rewind_pipeline" date="2022-03-29T15:39:21.200+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-532] Unable to rewind loop (FC/fc.cpp:10) in function 'fc': loop nest is not flattened." projectName="FC" solutionName="solution2_rewind_pipeline" date="2022-03-29T15:39:21.047+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 4800 to 5 for loop 'Loop-0' in function 'fc'." projectName="FC" solutionName="solution2_rewind_pipeline" date="2022-03-29T15:39:20.911+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 4800 to 5 for loop 'Loop-0' in function 'fc'." projectName="FC" solutionName="solution2_rewind_pipeline" date="2022-03-29T15:39:20.877+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Ignored multiple trip count directives for loop 'Loop-0' in function 'fc'." projectName="FC" solutionName="solution2_rewind_pipeline" date="2022-03-29T15:39:20.869+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1' (FC/fc.cpp:10:12) in function 'fc' : &#xD;&#xA;&#xD;&#xA;the outer loop is not a perfect loop." projectName="FC" solutionName="solution2_rewind_pipeline" date="2022-03-29T15:39:20.860+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'Loop-1' (FC/fc.cpp:10) because its parent loop or function is pipelined." projectName="FC" solutionName="solution3_outerpipe" date="2022-03-29T15:06:15.362+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'fc/OUT' to 'fc/OUT_r' to avoid the conflict with HDL keywords or other object names." projectName="FC" solutionName="solution3_unroll" date="2022-03-29T14:36:26.485+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'fc/IN' to 'fc/IN_r' to avoid the conflict with HDL keywords or other object names." projectName="FC" solutionName="solution3_unroll" date="2022-03-29T14:36:26.474+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'fc/OUT' to 'fc/OUT_r' to avoid the conflict with HDL keywords or other object names." projectName="FC" solutionName="solution2" date="2022-03-27T13:14:16.322+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'fc/IN' to 'fc/IN_r' to avoid the conflict with HDL keywords or other object names." projectName="FC" solutionName="solution2" date="2022-03-27T13:14:16.314+0800" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'Loop-1' (FC/fc.cpp:10:13) in function 'fc' : &#xD;&#xA;&#xD;&#xA;the outer loop is not a perfect loop." projectName="FC" solutionName="solution2" date="2022-03-27T13:14:16.098+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'fc/OUT' to 'fc/OUT_r' to avoid the conflict with HDL keywords or other object names." projectName="FC" solutionName="solution1" date="2022-03-25T16:09:19.549+0800" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'fc/IN' to 'fc/IN_r' to avoid the conflict with HDL keywords or other object names." projectName="FC" solutionName="solution1" date="2022-03-25T16:09:19.541+0800" type="Warning"/>
+      </synLog>
+      <simLog>
+        <logs message="WARNING: [COSIM 212-369] AXI_master port 'OUT_r' has a depth of '100'. Insufficient depth may result in simulation mismatch or freeze.&#xD;&#xA;   Build using &quot;E:/vivado_tools_2019.2/Vivado/2019.2/tps/win64/msys64/mingw64/bin/g++&quot;&#xD;&#xA;   Compiling apatb_fc.cpp&#xD;&#xA;   Compiling test_tb.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling fc.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Generating cosim.tv.exe" projectName="FC" solutionName="solution2" date="2022-03-27T13:25:35.223+0800" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-369] AXI_master port 'B' has a depth of '100'. Insufficient depth may result in simulation mismatch or freeze." projectName="FC" solutionName="solution2" date="2022-03-27T13:25:23.596+0800" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-369] AXI_master port 'W' has a depth of '100'. Insufficient depth may result in simulation mismatch or freeze." projectName="FC" solutionName="solution2" date="2022-03-27T13:25:23.588+0800" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-369] AXI_master port 'IN_r' has a depth of '100'. Insufficient depth may result in simulation mismatch or freeze." projectName="FC" solutionName="solution2" date="2022-03-27T13:25:23.578+0800" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

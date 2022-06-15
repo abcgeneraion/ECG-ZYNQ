@@ -1,0 +1,267 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'load_bias'" level="0">
+<item name = "Date">Thu Mar 31 15:01:58 2022
+</item>
+<item name = "Version">2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)</item>
+<item name = "Project">Conv1d</item>
+<item name = "Solution">solution1_base</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-2</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 7.219 ns, 1.25 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">5101, 5101, 51.010 us, 51.010 us, 5101, 5101, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">5100, 5100, 34, -, -, 150, no</column>
+<column name=" + Loop 1.1">32, 32, 2, -, -, 16, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 22, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, 0, 65, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 10, -</column>
+<column name="Register">-, -, 258, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="conv1d_mux_164_16bkb_U1">conv1d_mux_164_16bkb, 0, 0, 0, 65, 0</column>
+</table>
+</item>
+<item name = "DSP48E"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="i_fu_558_p2">+, 0, 0, 8, 8, 1</column>
+<column name="m_fu_590_p2">+, 0, 0, 7, 5, 1</column>
+<column name="icmp_ln52_fu_552_p2">icmp, 0, 0, 4, 8, 8</column>
+<column name="icmp_ln53_fu_584_p2">icmp, 0, 0, 3, 5, 6</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">4, 5, 1, 5</column>
+<column name="i_0_reg_510">3, 2, 8, 16</column>
+<column name="m_0_reg_521">3, 2, 5, 10</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">4, 0, 4, 0</column>
+<column name="bias_buff_V16_addr_reg_658">6, 0, 6, 0</column>
+<column name="bias_buff_V17_addr_reg_663">6, 0, 6, 0</column>
+<column name="bias_buff_V18_addr_reg_668">6, 0, 6, 0</column>
+<column name="bias_buff_V19_addr_reg_673">6, 0, 6, 0</column>
+<column name="bias_buff_V20_addr_reg_678">6, 0, 6, 0</column>
+<column name="bias_buff_V21_addr_reg_683">6, 0, 6, 0</column>
+<column name="bias_buff_V22_addr_reg_688">6, 0, 6, 0</column>
+<column name="bias_buff_V23_addr_reg_693">6, 0, 6, 0</column>
+<column name="bias_buff_V24_addr_reg_698">6, 0, 6, 0</column>
+<column name="bias_buff_V25_addr_reg_703">6, 0, 6, 0</column>
+<column name="bias_buff_V26_addr_reg_708">6, 0, 6, 0</column>
+<column name="bias_buff_V27_addr_reg_713">6, 0, 6, 0</column>
+<column name="bias_buff_V28_addr_reg_718">6, 0, 6, 0</column>
+<column name="bias_buff_V29_addr_reg_723">6, 0, 6, 0</column>
+<column name="bias_buff_V30_addr_reg_728">6, 0, 6, 0</column>
+<column name="bias_buff_V_addr_reg_653">6, 0, 6, 0</column>
+<column name="buff_out_0_V_addr_reg_741">8, 0, 8, 0</column>
+<column name="buff_out_10_V_addr_reg_791">8, 0, 8, 0</column>
+<column name="buff_out_11_V_addr_reg_796">8, 0, 8, 0</column>
+<column name="buff_out_12_V_addr_reg_801">8, 0, 8, 0</column>
+<column name="buff_out_13_V_addr_reg_806">8, 0, 8, 0</column>
+<column name="buff_out_14_V_addr_reg_811">8, 0, 8, 0</column>
+<column name="buff_out_15_V_addr_reg_816">8, 0, 8, 0</column>
+<column name="buff_out_1_V_addr_reg_746">8, 0, 8, 0</column>
+<column name="buff_out_2_V_addr_reg_751">8, 0, 8, 0</column>
+<column name="buff_out_3_V_addr_reg_756">8, 0, 8, 0</column>
+<column name="buff_out_4_V_addr_reg_761">8, 0, 8, 0</column>
+<column name="buff_out_5_V_addr_reg_766">8, 0, 8, 0</column>
+<column name="buff_out_6_V_addr_reg_771">8, 0, 8, 0</column>
+<column name="buff_out_7_V_addr_reg_776">8, 0, 8, 0</column>
+<column name="buff_out_8_V_addr_reg_781">8, 0, 8, 0</column>
+<column name="buff_out_9_V_addr_reg_786">8, 0, 8, 0</column>
+<column name="i_0_reg_510">8, 0, 8, 0</column>
+<column name="i_reg_736">8, 0, 8, 0</column>
+<column name="m_0_reg_521">5, 0, 5, 0</column>
+<column name="m_reg_824">5, 0, 5, 0</column>
+<column name="trunc_ln203_reg_829">4, 0, 4, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, load_bias, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, load_bias, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, load_bias, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, load_bias, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, load_bias, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, load_bias, return value</column>
+<column name="buff_out_0_V_address0">out, 8, ap_memory, buff_out_0_V, array</column>
+<column name="buff_out_0_V_ce0">out, 1, ap_memory, buff_out_0_V, array</column>
+<column name="buff_out_0_V_we0">out, 1, ap_memory, buff_out_0_V, array</column>
+<column name="buff_out_0_V_d0">out, 16, ap_memory, buff_out_0_V, array</column>
+<column name="buff_out_1_V_address0">out, 8, ap_memory, buff_out_1_V, array</column>
+<column name="buff_out_1_V_ce0">out, 1, ap_memory, buff_out_1_V, array</column>
+<column name="buff_out_1_V_we0">out, 1, ap_memory, buff_out_1_V, array</column>
+<column name="buff_out_1_V_d0">out, 16, ap_memory, buff_out_1_V, array</column>
+<column name="buff_out_2_V_address0">out, 8, ap_memory, buff_out_2_V, array</column>
+<column name="buff_out_2_V_ce0">out, 1, ap_memory, buff_out_2_V, array</column>
+<column name="buff_out_2_V_we0">out, 1, ap_memory, buff_out_2_V, array</column>
+<column name="buff_out_2_V_d0">out, 16, ap_memory, buff_out_2_V, array</column>
+<column name="buff_out_3_V_address0">out, 8, ap_memory, buff_out_3_V, array</column>
+<column name="buff_out_3_V_ce0">out, 1, ap_memory, buff_out_3_V, array</column>
+<column name="buff_out_3_V_we0">out, 1, ap_memory, buff_out_3_V, array</column>
+<column name="buff_out_3_V_d0">out, 16, ap_memory, buff_out_3_V, array</column>
+<column name="buff_out_4_V_address0">out, 8, ap_memory, buff_out_4_V, array</column>
+<column name="buff_out_4_V_ce0">out, 1, ap_memory, buff_out_4_V, array</column>
+<column name="buff_out_4_V_we0">out, 1, ap_memory, buff_out_4_V, array</column>
+<column name="buff_out_4_V_d0">out, 16, ap_memory, buff_out_4_V, array</column>
+<column name="buff_out_5_V_address0">out, 8, ap_memory, buff_out_5_V, array</column>
+<column name="buff_out_5_V_ce0">out, 1, ap_memory, buff_out_5_V, array</column>
+<column name="buff_out_5_V_we0">out, 1, ap_memory, buff_out_5_V, array</column>
+<column name="buff_out_5_V_d0">out, 16, ap_memory, buff_out_5_V, array</column>
+<column name="buff_out_6_V_address0">out, 8, ap_memory, buff_out_6_V, array</column>
+<column name="buff_out_6_V_ce0">out, 1, ap_memory, buff_out_6_V, array</column>
+<column name="buff_out_6_V_we0">out, 1, ap_memory, buff_out_6_V, array</column>
+<column name="buff_out_6_V_d0">out, 16, ap_memory, buff_out_6_V, array</column>
+<column name="buff_out_7_V_address0">out, 8, ap_memory, buff_out_7_V, array</column>
+<column name="buff_out_7_V_ce0">out, 1, ap_memory, buff_out_7_V, array</column>
+<column name="buff_out_7_V_we0">out, 1, ap_memory, buff_out_7_V, array</column>
+<column name="buff_out_7_V_d0">out, 16, ap_memory, buff_out_7_V, array</column>
+<column name="buff_out_8_V_address0">out, 8, ap_memory, buff_out_8_V, array</column>
+<column name="buff_out_8_V_ce0">out, 1, ap_memory, buff_out_8_V, array</column>
+<column name="buff_out_8_V_we0">out, 1, ap_memory, buff_out_8_V, array</column>
+<column name="buff_out_8_V_d0">out, 16, ap_memory, buff_out_8_V, array</column>
+<column name="buff_out_9_V_address0">out, 8, ap_memory, buff_out_9_V, array</column>
+<column name="buff_out_9_V_ce0">out, 1, ap_memory, buff_out_9_V, array</column>
+<column name="buff_out_9_V_we0">out, 1, ap_memory, buff_out_9_V, array</column>
+<column name="buff_out_9_V_d0">out, 16, ap_memory, buff_out_9_V, array</column>
+<column name="buff_out_10_V_address0">out, 8, ap_memory, buff_out_10_V, array</column>
+<column name="buff_out_10_V_ce0">out, 1, ap_memory, buff_out_10_V, array</column>
+<column name="buff_out_10_V_we0">out, 1, ap_memory, buff_out_10_V, array</column>
+<column name="buff_out_10_V_d0">out, 16, ap_memory, buff_out_10_V, array</column>
+<column name="buff_out_11_V_address0">out, 8, ap_memory, buff_out_11_V, array</column>
+<column name="buff_out_11_V_ce0">out, 1, ap_memory, buff_out_11_V, array</column>
+<column name="buff_out_11_V_we0">out, 1, ap_memory, buff_out_11_V, array</column>
+<column name="buff_out_11_V_d0">out, 16, ap_memory, buff_out_11_V, array</column>
+<column name="buff_out_12_V_address0">out, 8, ap_memory, buff_out_12_V, array</column>
+<column name="buff_out_12_V_ce0">out, 1, ap_memory, buff_out_12_V, array</column>
+<column name="buff_out_12_V_we0">out, 1, ap_memory, buff_out_12_V, array</column>
+<column name="buff_out_12_V_d0">out, 16, ap_memory, buff_out_12_V, array</column>
+<column name="buff_out_13_V_address0">out, 8, ap_memory, buff_out_13_V, array</column>
+<column name="buff_out_13_V_ce0">out, 1, ap_memory, buff_out_13_V, array</column>
+<column name="buff_out_13_V_we0">out, 1, ap_memory, buff_out_13_V, array</column>
+<column name="buff_out_13_V_d0">out, 16, ap_memory, buff_out_13_V, array</column>
+<column name="buff_out_14_V_address0">out, 8, ap_memory, buff_out_14_V, array</column>
+<column name="buff_out_14_V_ce0">out, 1, ap_memory, buff_out_14_V, array</column>
+<column name="buff_out_14_V_we0">out, 1, ap_memory, buff_out_14_V, array</column>
+<column name="buff_out_14_V_d0">out, 16, ap_memory, buff_out_14_V, array</column>
+<column name="buff_out_15_V_address0">out, 8, ap_memory, buff_out_15_V, array</column>
+<column name="buff_out_15_V_ce0">out, 1, ap_memory, buff_out_15_V, array</column>
+<column name="buff_out_15_V_we0">out, 1, ap_memory, buff_out_15_V, array</column>
+<column name="buff_out_15_V_d0">out, 16, ap_memory, buff_out_15_V, array</column>
+<column name="bias_buff_V_address0">out, 6, ap_memory, bias_buff_V, array</column>
+<column name="bias_buff_V_ce0">out, 1, ap_memory, bias_buff_V, array</column>
+<column name="bias_buff_V_q0">in, 16, ap_memory, bias_buff_V, array</column>
+<column name="bias_buff_V16_address0">out, 6, ap_memory, bias_buff_V16, array</column>
+<column name="bias_buff_V16_ce0">out, 1, ap_memory, bias_buff_V16, array</column>
+<column name="bias_buff_V16_q0">in, 16, ap_memory, bias_buff_V16, array</column>
+<column name="bias_buff_V17_address0">out, 6, ap_memory, bias_buff_V17, array</column>
+<column name="bias_buff_V17_ce0">out, 1, ap_memory, bias_buff_V17, array</column>
+<column name="bias_buff_V17_q0">in, 16, ap_memory, bias_buff_V17, array</column>
+<column name="bias_buff_V18_address0">out, 6, ap_memory, bias_buff_V18, array</column>
+<column name="bias_buff_V18_ce0">out, 1, ap_memory, bias_buff_V18, array</column>
+<column name="bias_buff_V18_q0">in, 16, ap_memory, bias_buff_V18, array</column>
+<column name="bias_buff_V19_address0">out, 6, ap_memory, bias_buff_V19, array</column>
+<column name="bias_buff_V19_ce0">out, 1, ap_memory, bias_buff_V19, array</column>
+<column name="bias_buff_V19_q0">in, 16, ap_memory, bias_buff_V19, array</column>
+<column name="bias_buff_V20_address0">out, 6, ap_memory, bias_buff_V20, array</column>
+<column name="bias_buff_V20_ce0">out, 1, ap_memory, bias_buff_V20, array</column>
+<column name="bias_buff_V20_q0">in, 16, ap_memory, bias_buff_V20, array</column>
+<column name="bias_buff_V21_address0">out, 6, ap_memory, bias_buff_V21, array</column>
+<column name="bias_buff_V21_ce0">out, 1, ap_memory, bias_buff_V21, array</column>
+<column name="bias_buff_V21_q0">in, 16, ap_memory, bias_buff_V21, array</column>
+<column name="bias_buff_V22_address0">out, 6, ap_memory, bias_buff_V22, array</column>
+<column name="bias_buff_V22_ce0">out, 1, ap_memory, bias_buff_V22, array</column>
+<column name="bias_buff_V22_q0">in, 16, ap_memory, bias_buff_V22, array</column>
+<column name="bias_buff_V23_address0">out, 6, ap_memory, bias_buff_V23, array</column>
+<column name="bias_buff_V23_ce0">out, 1, ap_memory, bias_buff_V23, array</column>
+<column name="bias_buff_V23_q0">in, 16, ap_memory, bias_buff_V23, array</column>
+<column name="bias_buff_V24_address0">out, 6, ap_memory, bias_buff_V24, array</column>
+<column name="bias_buff_V24_ce0">out, 1, ap_memory, bias_buff_V24, array</column>
+<column name="bias_buff_V24_q0">in, 16, ap_memory, bias_buff_V24, array</column>
+<column name="bias_buff_V25_address0">out, 6, ap_memory, bias_buff_V25, array</column>
+<column name="bias_buff_V25_ce0">out, 1, ap_memory, bias_buff_V25, array</column>
+<column name="bias_buff_V25_q0">in, 16, ap_memory, bias_buff_V25, array</column>
+<column name="bias_buff_V26_address0">out, 6, ap_memory, bias_buff_V26, array</column>
+<column name="bias_buff_V26_ce0">out, 1, ap_memory, bias_buff_V26, array</column>
+<column name="bias_buff_V26_q0">in, 16, ap_memory, bias_buff_V26, array</column>
+<column name="bias_buff_V27_address0">out, 6, ap_memory, bias_buff_V27, array</column>
+<column name="bias_buff_V27_ce0">out, 1, ap_memory, bias_buff_V27, array</column>
+<column name="bias_buff_V27_q0">in, 16, ap_memory, bias_buff_V27, array</column>
+<column name="bias_buff_V28_address0">out, 6, ap_memory, bias_buff_V28, array</column>
+<column name="bias_buff_V28_ce0">out, 1, ap_memory, bias_buff_V28, array</column>
+<column name="bias_buff_V28_q0">in, 16, ap_memory, bias_buff_V28, array</column>
+<column name="bias_buff_V29_address0">out, 6, ap_memory, bias_buff_V29, array</column>
+<column name="bias_buff_V29_ce0">out, 1, ap_memory, bias_buff_V29, array</column>
+<column name="bias_buff_V29_q0">in, 16, ap_memory, bias_buff_V29, array</column>
+<column name="bias_buff_V30_address0">out, 6, ap_memory, bias_buff_V30, array</column>
+<column name="bias_buff_V30_ce0">out, 1, ap_memory, bias_buff_V30, array</column>
+<column name="bias_buff_V30_q0">in, 16, ap_memory, bias_buff_V30, array</column>
+<column name="bias_buff_V_offset">in, 29, ap_none, bias_buff_V_offset, scalar</column>
+</table>
+</item>
+</section>
+</profile>

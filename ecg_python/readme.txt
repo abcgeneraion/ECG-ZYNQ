@@ -1,0 +1,2 @@
+运行ecg训练模型,并将权重和数据存储在当前路径,然后运行param_saver.py将权重保存至weight文件夹。
+将data.bin,label.bin也拷贝至weight文件夹,并将文件夹重命名为ecg，然后拷入SD卡内，插入FPGA即可

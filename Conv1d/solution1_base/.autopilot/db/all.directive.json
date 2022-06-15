@@ -1,0 +1,29 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "conv1d",
+          "label": "LOOP2",
+          "functionLabel": "",
+          "pragma": {
+            "name": "LOOP_TRIPCOUNT",
+            "option": [{
+                "name": "avg",
+                "value": "32"
+              }]
+          }
+        },
+        {
+          "functionName": "compute_output",
+          "label": "LOOP",
+          "functionLabel": "",
+          "pragma": {
+            "name": "LOOP_TRIPCOUNT",
+            "option": [{
+                "name": "avg",
+                "value": "16"
+              }]
+          }
+        }
+      ]
+    }]}
